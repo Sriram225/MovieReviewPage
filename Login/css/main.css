@@ -1,0 +1,64 @@
+body { 
+  
+
+    background-image: url('../images/40.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+}
+
+#login
+{
+    font-size: 25px;
+    color: dimgrey;
+	position: relative;
+	top: 50px;
+	left: 520px;
+    background: #FFFFFF;
+    max-width: 280px;
+    margin: 0 auto 60px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 15px;
+    border-color: black;
+}
+
+#login input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#login button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #29AfE8; /*4CAF50;*/
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/*#login .error {
+    color: red;
+}*/
+input[type=text]:focus, textarea:focus
+{
+    background-color: #FFBFFF;
+}
+
+#signup {
+    text-decoration: none;
+    color: #4cafc0;
+}

@@ -1,0 +1,44 @@
+body 
+{ 
+	background-image: url('../images/34-1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position:center;
+}
+
+#title
+{
+	font-size: 40px;
+}
+
+#rev input[type=text]
+{
+	width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#rev input[type=text]:focus
+{
+	width: 100%;
+}
+
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
